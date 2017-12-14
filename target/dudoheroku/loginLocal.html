@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/configVariablesLocal.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div id="loginResult" style="display:none;"></div>
+<table id="loginTable">
+	<tr>
+		<td>
+			Username
+		</td>
+		<td>
+			<input type="text" id="usernameId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Password
+		</td>
+		<td>
+			<input type="password" id="passwordId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button id="submitButtonId" onclick="prepareUserDataAndSubmit(4);">Verify username avail</button>
+		</td>
+		<td>
+			<button id="submitButtonId" onclick="prepareUserDataAndSubmit(0);">Login</button>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New User</title>
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/configVariablesLocal.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div id="updateResult" style="display:none;"></div>
+<table id="updateTable">
+	<tr>
+		<td>
+			Username
+		</td>
+		<td>
+			<input type="text" id="usernameId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Score
+		</td>
+		<td>
+			<input type="text" id="scoreId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Number of online users
+		</td>
+		<td>
+			<input type="text" id="numberOfUsersId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Online
+		</td>
+		<td>
+			<input type="checkbox" id="onlineId" value="Online">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Device Id
+		</td>
+		<td>
+			<input type="text" id="deviceId" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<button id="submitButtonId" onclick="prepareUserDataAndSubmit(2);">Invia</button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<button id="submitButtonIdOnline" onclick="prepareUserDataAndSubmit(5);">Invia Online Info</button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<button id="submitButtonIdOnlineUsers" onclick="prepareUserDataAndSubmit(6);">Utenti Online</button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<button id="submitButtonUserDeviceInsert" onclick="prepareUserDataAndSubmit(7);">Insert Utente Dispositivo</button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			
+		</td>
+		<td>
+			<button id="submitButtonUserDeviceRetrieve" onclick="prepareUserDataAndSubmit(8);">Retrieve Utente Dispositivo</button>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
